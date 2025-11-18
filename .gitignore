@@ -117,3 +117,32 @@ app.*.symbols
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
+
+# IntelliJ / VSCode
+.vscode/
+.idea/
+
+# iOS / Android build artifacts
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Flutter/Generated.xcconfig
+
+android/.gradle/
+android/captures/
+
+# Crashlytics / Firebase
+firebase_debug.log
+
+# Local settings
+local.properties
+
+# Vendor / dependency caches
+vendor/
+
+# Test output
+*.out
+
+# Temporary files
+*.log
